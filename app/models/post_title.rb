@@ -1,6 +1,6 @@
 class PostTitle < ApplicationRecord
-    has_many :comments
-    belongs_to :users
+  has_many :comments
+  belongs_to :user
 
-    validates :title, presence: true, length: {minimum: 6}
+  validates :title, presence: true, length: { minimum: 6 }
 end

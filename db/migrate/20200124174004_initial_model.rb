@@ -3,8 +3,8 @@ class InitialModel < ActiveRecord::Migration[6.0]
     create_table :users do |u|
       u.string :name
       u.string :email
-      
-      u.timestapms
+     
+      u.timestamps
     end
   end
 end
